@@ -1,20 +1,329 @@
- 1163  git checkout -- index.html
- 1164  git status
- 1165  vim index.html
- 1166  git add index.html
- 1167  git status
- 1168  git reset HEAD index.html
- 1169  git status
- 1170  git checkout -- index.html
- 1171  vim index.html
- 1172  git add index.html
- 1173  git commit -m "alterando meno de ansible"
- 1174  git log
- 1175  git reverse 9c7357c2b0e5b1637f83dcaa62e2a98099c25e61
- 1176  git log
- 1177  git revert 9c7357c2b0e5b1637f83dcaa62e2a98099c25e61
- 1178  vim index.html
- 1179  history|tail
- 1180  history|tail -n 10
- 1181  history|tail -n 15
- 1182  history|tail -n 20
+git git
+git  clone https://github.com/abertsch/Menlo-for-Powerline.git
+git  clone https://github.com/powerline/fonts.git --depth=1
+git 
+git  clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git  clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git  clone https://github.com/skx/sysadmin-util.git
+git hub.com/skx/sysbox
+git 
+git  clone https://github.com/ycm-core/YouCompleteMe.git
+git  submodule update --init --recursive
+git  init
+git  add .
+git  commit -m "first version of my ruby guess-number game"
+git  commit -m "segunda versao, nesta versao fiz uma limpeza no codigo e reorganizacao tirando comentarios desnecessarios e incluindo comentario no inicio do arquivo para explicar o que faz o codigo"
+git  add maior_ou_menor.rb
+git  commit -m "segunda versao, nesta versao fiz uma limpeza no codigo e reorganizacao tirando comentarios desnecessarios e incluindo comentario no inicio do arquivo para explicar o que faz o codigo"
+git  .bash_history
+git  .bash_history|less
+git  status
+git  log
+git  checkout bdf7943250185d33fb535a115df963336f1810f8
+git  checkout master
+git  log
+git -e-github
+git  --version
+git  init
+git  status
+git  add .
+git  status
+git  rm --cached exemplo.txt
+git  commit -m "Criando arquivo index.html com lista de cursos"
+git  status
+git  add index.html
+git  status
+git  commit -m "Acento adicionado no curso de integração contínua"
+git  status
+git  log
+git  config
+git  config --local
+git  config
+git  config --get-all
+git  config --local --get-all 
+git  config --local 
+git  config --local --get
+git  config --list
+git 
+git  status
+git  log
+git  config --local user.name "Felipe Olivieri"
+git  config --list
+git  log
+git  log -p
+git  log
+git  config --global user.name "Felipe Olivieri"
+git  config --list
+git  log
+git  config --list
+git  log
+git  log --pretty="format:%H"
+git  log --pretty="format:%h %s"
+git  status
+git 
+git -e-github
+git  add .gitignore
+git  commit -m "Adicionando .gitignore"
+git  status
+git  log
+git  log -p
+git 
+git  log --oneline
+git 
+git  init --bare
+git -e-github
+git  remote
+git  remote add local /Users/olivieri/Documents/Treinamentos/Alura/servidor/
+git  remote
+git  remote -v
+git  clone /Users/olivieri/Documents/Treinamentos/Alura/servidor/
+git  clone /Users/olivieri/Documents/Treinamentos/Alura/servidor/ projeto
+git -e-github/
+git -e-github
+git  stop
+git 
+git  remote
+git  push local master
+git  remote
+git  remote rename origin local
+git  remote
+git  pull local master
+git  status
+git  add index.html
+git  commit -m "Renomeando curso de integracao continua"
+git  pull local master
+git  status
+git  pull local master
+git  log -p
+git  config --local user.name "Ana"
+git  log
+git  config --local user.name "Ana"
+git  status
+git  add index.html
+git  commit -m "Renomeando curso de integracao continua."
+git  push local master
+git  status
+git  log
+git  pull local master
+git  log -p
+git  config --local user.mail "ana@mail.com"
+git  log -p
+git 
+git  remote add origin https://github.com/felipeolivieri/curso-git.git
+git  push origin master
+git  config --list
+git  remote
+git  remote --help
+git  remote origin
+git  remote remove origin
+git  remote
+git  remote add origin
+git  remote
+git  push origin master
+git  remote remove origin
+git  remote add origin https://github.com/felipeolivieri/curso-git.git
+git  remote
+git  show-ref
+git  ls-remote
+git  push origin master
+git  config --list
+git  remote add origin https://github.com/felipeolivieri/curso-git.git
+git  push origin master
+git  add READM.md
+git  status
+git  add README.md
+git  status
+git  rm READM.md
+git  status
+git  commit -m "Criando arquivo README.md Vazio"
+git  push origin master
+git  init
+git  status
+git 
+git  status
+git 
+git  status
+git 
+git  init
+git  status
+git  rm *.swp
+git  status
+git  rm .maior_ou_menor.rb.swp
+git  status
+git  add .gitignore
+git  add exemplo.txt
+git  status
+git  log"\n
+git  log
+git  commit -m "Criando arquivo
+git  remote
+git  remote add origin https://github.com/felipeolivieri/curso-ruby.git
+git  push origin master
+git 
+git  status
+git 
+git -e *
+git  branch
+git  branch titulo
+git  branch
+git  checkout titulo
+git  branch
+git  checkout titulo
+git  branch
+git  checkout titulo
+git  status
+git  add index.html
+git  commit -m "alterando titulo da pagina"
+git  log
+git  branch list
+git  branch rename list lista
+git  branch lista
+git  checkout lista
+git  add index.html
+git  commit -m "Adicionando curso de kubernets"
+git  log
+git  status
+git  add index.html
+git  status
+git  commit -m "alterando titulo do docker"
+git  checkout master
+git  status
+git  merge titulo
+git  log
+git  log -p
+git 
+git  log --graph
+git  checkout titulo
+git  status
+git  add index.html
+git  commit -m "cursos e devops com letras maiusculas"
+git  checkout master
+git  log --graph
+git  rebase titulo
+git  log
+git  push local master
+git  checkout master
+git  pull local master
+git  checkout lista
+git  add index.html
+git  commit -m "atualizando nome do curso de docker"
+git  log -p
+git  checkout master
+git  merge titulo
+git  merge lista
+git  status
+git  add index.html
+git  status
+git  commit -m "alterado lista e corrigido o conflito\n"
+git  log --graph
+git  push local master
+git  status
+git  add index.html
+git  commit -m "corrigindo vagrant na lista"
+git  push local master
+git  pull local master
+git  add index.html
+git  commit -m "alterei lista, inclui vagrant e aceitei o conflito do docker"
+git  status
+git  push local master
+git  pull local master
+git  branch
+git  log
+git  add index.html
+git  commit -m "alterei lista, alterei nome do curso de Kubernetes"
+git  status
+git  add index.html
+git  commit -m "corrigi o nome do curso kubernetes, informando que é introdução"
+git  push local master
+git  pull local master
+git  status
+git  add index.html
+git  commit -m "resolver os conflitos da lista"
+git  push local master
+git  status
+git  pull local master
+git  checkout titulo
+git  add index.html
+git  commit -m "alterando titulo"
+git  checkout master
+git  status
+git  add index.html
+git  commit -m "alterado titulo, incluido informação que é introdução"
+git  rebase titulo
+git  add index.html
+git  commit -m "resolvendo conflitos da lista"
+git  rebase titulo
+git  rebase  --continue
+git  rebase --abort
+git  checkout titulo
+git  checkout master
+git  rebase titulo
+git  add index.html
+git  rebase --continue
+git  add index.html
+git  rebase --continue
+git s tatus
+git  status
+git  rebase --continue
+git  log
+git  rebase --continue
+git  rebase
+git  rebase --abort
+git  checkout titulo
+git  pull local master
+git  add index.html
+git  commit -m "alterando titulo com ."
+git  checkout master
+git  rebase titulo
+git  am --show-current-path
+git  am --show-current-patch
+git  add index.html
+git  commit -m "resolvendo conflitos do titulo"
+git  rebase --continue
+git  status
+git  rebase --continue
+git  rebase --skip
+git  rebase titulo
+git  checkout titulo
+git  status
+git  checkout master
+git  push local master
+git  checkout titulo
+git  pull local master
+git  add index.html
+git  commit -m "alterei titulo incluindo . no final de introdução"
+git  checkout master
+git  status
+git  rebase titulo
+git  log
+git  log -p
+git  log --graph
+git  pull local master
+git  push local master
+git  status
+git  checkout -- index.html
+git  status
+git  add index.html
+git  status
+git  reset HEAD index.html
+git  status
+git  checkout -- index.html
+git  add index.html
+git  commit -m "alterando meno de ansible"
+git  log
+git  reverse 9c7357c2b0e5b1637f83dcaa62e2a98099c25e61
+git  log
+git  revert 9c7357c2b0e5b1637f83dcaa62e2a98099c25e61
+git 
+git  status
+git  add *.txt
+git 
+git  status
+git  add .
+git  commit -m "incluindo txt e alteracoes do
+git 
+git |awk '{FS=" "}{print $2}'
+git |awk '{FS=" "}{print $2}'|grep
+git |grep
+git 
+git |grep
