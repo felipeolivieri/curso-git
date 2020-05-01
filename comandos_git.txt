@@ -1,0 +1,20 @@
+ 1163  git checkout -- index.html
+ 1164  git status
+ 1165  vim index.html
+ 1166  git add index.html
+ 1167  git status
+ 1168  git reset HEAD index.html
+ 1169  git status
+ 1170  git checkout -- index.html
+ 1171  vim index.html
+ 1172  git add index.html
+ 1173  git commit -m "alterando meno de ansible"
+ 1174  git log
+ 1175  git reverse 9c7357c2b0e5b1637f83dcaa62e2a98099c25e61
+ 1176  git log
+ 1177  git revert 9c7357c2b0e5b1637f83dcaa62e2a98099c25e61
+ 1178  vim index.html
+ 1179  history|tail
+ 1180  history|tail -n 10
+ 1181  history|tail -n 15
+ 1182  history|tail -n 20
