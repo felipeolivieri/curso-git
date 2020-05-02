@@ -346,7 +346,6 @@ depois de colocar no stage
  1230  git status
 
 depois de comitado
- 1231  vim index.html
  1232  git add index.html
  1233  git commit -m "alterando entrada do ansible"
  1234  git log
@@ -363,4 +362,14 @@ depois de comitado
  1258  cat index.html
  1259  git stash list
  1260  git stash pop  > isso tira da lista e aplica as alterações: apply aplica as alterações e mantem drop dropa as alteracoes da lista
- 1261  vim index.html
+
+comando de git diff
+ 1316  git diff
+ 1317  git checkout -- index.html
+ 1318  cat comandos_git.txt
+ 1319  vim index.html
+ 1320  git stash
+ 1321  git stash list
+
+ 1322  git diff
+ 1323  git diff master titulo
