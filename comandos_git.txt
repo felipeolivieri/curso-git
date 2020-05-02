@@ -352,5 +352,15 @@ depois de comitado
  1234  git log
  1235  git revert 088e098cb76d0fc1a14d91eab814178adf360938
  1236  git log
- 1237  vim index.html
- 1238  history |tail -n 20
+
+
+ comando para guardar alterações para depois!!!!!! muito legal! 
+ 253  git stash list
+ 1254  vim index.html
+ 1255  git status
+ 1256  git add index.html
+ 1257  git commit -m "alterando nome do curso de kubernetes"
+ 1258  cat index.html
+ 1259  git stash list
+ 1260  git stash pop  > isso tira da lista e aplica as alterações: apply aplica as alterações e mantem drop dropa as alteracoes da lista
+ 1261  vim index.html
