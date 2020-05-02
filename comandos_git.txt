@@ -327,3 +327,30 @@ git |awk '{FS=" "}{print $2}'|grep
 git |grep
 git 
 git |grep
+### Revertendo alterações
+
+antes de colocar no stage
+ 1219  git remote
+ 1220  vim index.html
+ 1221  git status
+ 1222  git checkout -- index.html
+ 1223  git status
+
+depois de colocar no stage
+ 1224  vim index.html
+ 1225  git add index.html
+ 1226  git status
+ 1227  git restore --staged index.html
+ 1228  git status
+ 1229  git restore index.html
+ 1230  git status
+
+depois de comitado
+ 1231  vim index.html
+ 1232  git add index.html
+ 1233  git commit -m "alterando entrada do ansible"
+ 1234  git log
+ 1235  git revert 088e098cb76d0fc1a14d91eab814178adf360938
+ 1236  git log
+ 1237  vim index.html
+ 1238  history |tail -n 20
