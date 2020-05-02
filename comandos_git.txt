@@ -373,3 +373,17 @@ comando de git diff
 
  1322  git diff
  1323  git diff master titulo
+ 1342  git log
+ 1343  git log -n 2
+
+Gerando primeira release (versão)
+ 1344  git tag -a v0.1.0 -m "Lançando a primeira versão (BETA) da aplicação de cursos"
+ 1345  git tag
+ 1346  git push local master
+ 1347  git push origin master
+ 1348  git remote -v
+
+gerando a release v0.1.0 no github! isso gera um arquivo pra baixar nesta release!
+ 1349  git push origin v0.1.0
+ 1350* git pull local master
+ 1351  history|tail 
